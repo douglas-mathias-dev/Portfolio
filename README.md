@@ -1,12 +1,13 @@
+<center>
+
 # Olá, sou o Douglas Mathias :wave:
 
 `Desenvolvedor Full Stack` `.Net` `SQL` `Angular`
 
 ![coding](./coding.gif)
 
----
-
 Desenvolvedor Full Stack com experiência em todas as etapas do ciclo de vida de software. Atuo principalmente em projetos em .Net utilizando as linguagens C# e VB\.Net.
+</center>
 
 ---
 
