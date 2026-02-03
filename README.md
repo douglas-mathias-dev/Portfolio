@@ -1,10 +1,12 @@
-# Olá, eu sou o Douglas Mathias :wave:
+# Olá, sou o Douglas Mathias :wave:
 
 `Desenvolvedor Full Stack` `.Net` `SQL` `Angular`
 
 ![coding](./coding.gif)
 
-Sou Desenvolvedor Full Stack com experiência em todas as etapas do ciclo de vida de software. Atuo principalmente em projetos em .Net utilizando as linguagens C# e VB\.Net.
+---
+
+Desenvolvedor Full Stack com experiência em todas as etapas do ciclo de vida de software. Atuo principalmente em projetos em .Net utilizando as linguagens C# e VB\.Net.
 
 ---
 
@@ -12,7 +14,7 @@ Sou Desenvolvedor Full Stack com experiência em todas as etapas do ciclo de vid
 
 - :technologist: Desenvolvedor Full Stack com mais de 5 anos de experiência
 - :lock: Formado em Segurança da Informação
-- :saxophone: Músico nas horas vagas
+- :saxophone: Músico nas horas vagasgit 
 
 ### :rocket: Tech Stack
 
