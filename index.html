@@ -2,15 +2,190 @@
     <head>
         <meta charset="utf-8" />
         <title>Douglas Mathias - Portifólio</title>
-        <style>
-            .Nome
-            {
-                text-align: center;
-                padding-top: 30px;
-            }
-        </style>
+        <link rel="icon" type="image/png" href="favico.png" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
-    <body>
-        <h1 class="Nome">Douglas Mathias</h1>
+    <body data-bs-theme="dark">
+        <nav class="navbar fixed-top bg-body-tertiary">
+            <div class="container-fluid justify-content-end">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="switchCheckChecked" onchange="document.body.setAttribute('data-bs-theme', this.checked ? 'dark' : 'light')" checked>
+                    <label class="form-check-label" for="switchCheckChecked">Modo Escuro</label>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <h1 class="mb-1">Douglas Mathias</h1>
+                </div>
+            </div>
+            <hr />
+            <div class="row justify-content-lg-center">
+                <div class="col text-center col-sm-2">
+                    <a href="https://maps.app.goo.gl/hwVpX4P5TME8KEuE6" target="_blank" class="text-decoration-none text-muted">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                        São Paulo
+                    </a>
+                </div>
+                <div class="col text-center col-sm-2">
+                    <a href="https://linkedin.com/in/douglas-mathias" target="_blank" class="text-decoration-none text-muted">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="col text-center col-sm-2">
+                    <a href="https://github.com/douglas-mathias-dev" target="_blank" class="text-decoration-none text-muted">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <hr />
+            <div class="row mt-4 fs-6">
+                <div class="col text-justify">
+                    <p>Sou desenvolvedor .NET há 6 anos, com experiência em projetos que envolveram C#, VB.NET, SQL Server, Web Razor Pages (MVC) e Angular.</p>
+                    <p>Atuei em todo o ciclo de desenvolvimento de software, desde o levantamento e análise de requisitos até o desenvolvimento, testes em homologação e entrega em produção, sempre buscando aplicar boas práticas de desenvolvimento e alinhamento com as áreas de negócio.
+                    <p>Entre os projetos em que atuei, destaco a criação de um sistema de monitoramento de APIs, no qual fui responsável tanto pelo Back-End, desenvolvendo a lógica e as integrações entre APIs, quanto pelo Front-End, implementado em Angular.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <h3 class="mb-1">Experiências Profissionais</h3>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <h5 class="mb-1">Sistemas TH Consultoria e Informática</h5>
+                <p class="mb-1">São Paulo, SP</p>
+            </div>
+            <hr class="mt-0">
+            <div class="d-flex justify-content-between mt-2">
+                <p class="mb-1 fw-semibold">Desenvolvedor Full Stack Sênior</p>
+                <p class="mb-1">out 2019 - ago 2025</p>
+            </div>
+            <div class="ms-4">
+                <p>- Responsável pelo levantamento e análise de requisitos em sistemas Web e Desktop Windows
+                <br>- Contribuição com o desenvolvimento de projetos junto as áreas de negócio e processos
+                <br>- Responsável pelo desenvolvimento e manutenção de softwares para uso interno e externo
+                <br>- Experiência em .Net, C#, VB.Net, SQL, PHP, ASP.Net, Razor, Angular</p>
+            </div>
+            
+            <div class="d-flex justify-content-between">
+                <p class="mb-1 fw-semibold">Desenvolvedor Full Stack Pleno</p>
+                <p class="mb-1">out 2021 - set 2022</p>
+            </div>
+            <div class="ms-4">
+                <p>- Responsável pelo desenvolvimento de softwares para uso interno
+                <br>- Criação e manutenção de APIs Rest e WebServices SOAP externos com as linguagens C#, VB.Net e SQL
+                <br>- Manipulação de banco de dados SQL Server (Tabelas, Procedures, Query Tuning)
+                <br>- Desenvolvimento de softwares para automação de processos internos
+                <br>- Desenvolvimento de ferramentas de monitoramento com alertas automáticos no Telegram
+                <br>- Responsável pela manutenção de sistemas legados em VB.Net e VB6
+                <br>- Responsável pela manutenção do sistema ERP da companhia</p>
+            </div>
+            
+            <div class="d-flex justify-content-between">
+                <p class="mb-1 fw-semibold">Desenvolvedor Full Stack Júnior</p>
+                <p class="mb-1">set 2019 - set 2021</p>
+            </div>
+            
+            <div class="ms-4">
+                <p>- Manutenção de projetos internos em .Net (C# e VB.Net, SQL)
+                <br>- Atualização de Sistemas legados (VB.Net e VB6)
+                <br>- Documentação de Software</p>
+            </div>
+            
+            <div class="d-flex justify-content-between">
+                <h5 class="mb-1">Foundever</h5>
+                <p class="mb-1">São Paulo, SP</p>
+            </div>
+            <hr class="mt-0">
+            <div class="d-flex justify-content-between">
+                <p class="mb-1 fw-semibold">Analista de Suporte de TI</p>
+                <p class="mb-1">dez 2018 - set 2019</p>
+            </div>
+            <div class="ms-4">
+
+                <p>- Suporte técnico remoto de hardware e software (Incluindo auxílio em substituição de componentes)
+                <br>- Atendimento ao cliente</p>
+            </div>
+            
+            <div class="d-flex justify-content-between">
+                <h5 class="mb-1 fw-semibold">Ministério Público do Trabalho</h5>
+                <p class="mb-1">São Paulo, SP</p>
+            </div>
+            <hr class="mt-0">
+            <div class="d-flex justify-content-between">
+                <p class="mb-1 fw-semibold">Estagiário de Suporte de TI</p>
+                <p class="mb-1">abr 2017 - abr 2018</p>
+            </div>
+            <div class="ms-4">
+                <p>- Instalação e configuração de computadores, impressoras e softwares homologados
+                <br>- Atendimento remoto e suporte administrativo ao setor de TI</p>
+            </div>
+                            
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <h3 class="mb-1">Formação Acadêmica</h3>
+                </div>
+            </div>
+            <div class="mt-3">
+                <div class="d-flex justify-content-between">
+                    <h5 class="mb-1 fw-semibold">Fatec São Caetano do Sul - Antônio Russo</h5>
+                    <p class="mb-1">São Caetano do Sul, SP</p>
+                </div>
+                <hr class="mt-0">
+                <div class="d-flex justify-content-between">
+                    <p class="mb-1">Tecnólogo em Segurança da Informação</p>
+                    <p class="mb-1">2024 (Concluído)</p>
+                </div>
+            </div>
+            <div class="mt-3">
+                <div class="d-flex justify-content-between">
+                    <h5 class="mb-1 fw-semibold">ETEC de Caieiras</h5>
+                    <p class="mb-1">Caieiras, SP</p>
+                </div>
+                <hr class="mt-0">
+                <div class="d-flex justify-content-between">
+                    <p class="mb-1">Técnico em Informática para Internet</p>
+                    <p class="mb-1">2016 (Concluído)</p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <h3 class="mb-1">Competências Técnicas</h3>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col text-justify">
+                    <p class="mb-1"><span class="fw-semibold">Backend:</span> .Net, C#, VB.Net, ASP.Net, PHP, APIs REST, SOAP, EF Core, Linq</p>
+                    <p class="mb-1"><span class="fw-semibold">Frontend:</span> HTML, CSS, JavaScript, Angular</p>
+                    <p class="mb-1"><span class="fw-semibold">Recursos:</span> Queue, Programação Assíncrona, MultiThreading</p>
+                    <p class="mb-1"><span class="fw-semibold">Banco de Dados:</span> SQL Server, MySQL, Query Tuning</p>
+                    <p class="mb-1"><span class="fw-semibold">Ferramentas:</span> GIT, TFS, Visual Studio, Excel</p>
+                    <p class="mb-1"><span class="fw-semibold">Idiomas:</span> Português (Nativo), Inglês (Avançado)</p> 
+                </div>
+            </div>
+        </div>
+        <footer class="border-top mt-5 py-4">
+            <div class="container text-center">
+                <div class="d-flex justify-content-center gap-3 mb-2">
+                    <a href="https://linkedin.com/in/douglas-mathias" class="text-decoration-none" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/douglas-mathias-dev" class="text-decoration-none" target="_blank">GitHub</a>
+                </div>
+                <small class="text-muted">© 2026</span> Douglas Mathias</small>
+            </div>
+        </footer>
+
     </body>
 </html>

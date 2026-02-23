@@ -2,20 +2,20 @@
 
 # Olá, sou o Douglas Mathias :wave:
 
-`Desenvolvedor Full Stack` `.Net` `SQL` `Angular`
+`Desenvolvedor .Net` `Backend` `C#` `VB.Net` `SQL`
 
 ![coding](./coding.gif)
 
-Desenvolvedor Full Stack com experiência em todas as etapas do ciclo de vida de software. Atuo principalmente em projetos em .Net utilizando as linguagens C# e VB\.Net.
+Desenvolvedor .Net com experiência em todas as etapas do ciclo de vida de software. Atuo principalmente em projetos em .Net utilizando as linguagens C# e VB\.Net.
 </div>
 
 ---
 
 ### :brain:  Sobre mim
 
-- :technologist: Desenvolvedor Full Stack com mais de 5 anos de experiência
+- :technologist: Desenvolvedor .Net com mais de 5 anos de experiência
 - :lock: Formado em Segurança da Informação
-- :saxophone: Músico nas horas vagasgit 
+- :saxophone: Músico nas horas vagas
 
 ### :rocket: Tech Stack
 
@@ -57,4 +57,3 @@ Desenvolvedor Full Stack com experiência em todas as etapas do ciclo de vida de
 ### Contatos
 
 [`Linkedin`](https://linkedin.com/in/douglas-mathias)
-[`E-Mail`](mailto:douglasmathias72@gmail.com)
